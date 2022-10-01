@@ -1,3 +1,9 @@
+# AccuWeather API use/call program written in Python by Gabe Hazeldine for Prof. Dave Chamberlain for
+# Project 1(b), Software Engineering, Fall 2022
+# Written using modified code from what professor provided. All else is original.
+# Submitted initially to GitHub repository on 10-1-2022
+# Program ver. 0.1
+
 import json
 from typing import Any
 import requests
@@ -40,6 +46,8 @@ def create_url(url_type, suffix_txt):
 # And how much if the user is going to enter/query the same city twice, once for conditions and once more for five day
 # temperature high's and low's?
 # There are more than three Bostons, for instance, with at least two in the United States
+
+# answer to above: don't need to per lecture notes
 
 def get_location(zipcode):
     # location_url = 'http://dataservice.accuweather.com/locations/v1/postal' \
@@ -298,4 +306,3 @@ def json_access_test():
 # for testing json access w/o using up AccuWeather calls
 # json_access_test()
 
-pass
