@@ -88,7 +88,7 @@ def get_conditions(key, conditions_or_temp):
                                                                            day['Temperature']['Minimum']['Value'],
                                                                            day['Temperature']['Maximum']['Value']))
     
-location_key = ''
+
 def call_for_weather(conditions_or_temp):
     city_code = ""
     if conditions_or_temp == 'conditions':
